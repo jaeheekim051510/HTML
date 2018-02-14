@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header{
+    background-color: rgb(66, 65, 65);
+    padding: 15px;
+    font-size: 20px;
+}
+a {
+    font-family:arial,sans-serif;
+    color: white;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+.menu{
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+    padding: 12px;
+}  
+
+.right-menu {
+    margin-left: 60%;
+}
+
+.ion-ios-gear-outline {
+    font-size: 30px;
+}
+
+#words {
+    font-family: 'Mukta Mahee', sans-serif;
+    font-size: 150px;
+    font-weight:bold;
+    text-align: center;
+    margin-top:10%;
+}
+
+.search {
+    border: 2px solid;
+    border-color: rgb(165, 159, 159);
+    padding: 15px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 1%;
+    width: 40%;
+    box-shadow: inset .2em .2em .3em rgb(207, 203, 203);
+}
