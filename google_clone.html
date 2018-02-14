@@ -9,11 +9,13 @@
     <link rel="stylesheet" type="text/css" href="google_clone.css">
     <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee|Open+Sans|Raleway" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav>
-            <ul class="menu">
+    <nav class="menu">
+        <div id= "left">
+            <ul>
                 <li><a href=https://plus.google.com/discover/> Google+  </a></li>
                 <li><a href=https://www.google.com>Search  </a></li>
                 <li><a href=https://images.google.com>Image  </a></li>
@@ -21,21 +23,51 @@
                 <li><a href=https://play.google.com>Play  </a></li>
                 <li><a href=https://www.youtube.com>Youtube  </a></li>
                 <li><a href=https://mail.google.com>Gmail  </a></li>
-                <li><a href=https://accounts.google.com/Login?hl=EN class="right-menu"> Sign In </a></li>
+            </ul>
+        </div> 
+        <div id="space">
+        </div>
+        <div id="right">
+            <ul>
+                <li><a href=https://accounts.google.com/Login?hl=EN> Sign In | </a></li>
                 <li><a href=https://myaccount.google.com/><i class="ion-ios-gear-outline"></i></a></li>
             </ul>
-        </nav>
+        </div>
+    </nav>
     </header>
     
-    <div id="words">
-        <span style="color:rgb(12, 12, 170)">G</span><span style="color:red">o</span><span style="color:rgb(247, 224, 23)">o</span><span style="color:rgb(12, 12, 170)">g</span><span style="color:rgba(7, 136, 7, 0.884)">l</span><span style="color:red">e</span>
+    <div id="center">
+        <div class="words">
+            <span style="color:rgb(12, 12, 170)">G</span><span style="color:red">o</span><span style="color:rgb(247, 224, 23)">o</span><span style="color:rgb(12, 12, 170)">g</span><span style="color:rgba(7, 136, 7, 0.884)">l</span><span style="color:red">e</span>
+        </div>
+
+        <input type="search" class ="search" value=""></input>
+
+        <ul class ="button">
+            <button type="button">Google search</button>
+            <button type="button">I'm Feeling Lucky</button>
+        </ul>
+
     </div>
 
-    <div id="search_box">
-        <h3 class = "search">Search Google or type URL</h3>
-    </div>
-
-
-    
+    <footer>
+        <nav class="footer">
+            <div>
+            <ul>
+                <li><a href=adversiting/> Advertising  </a></li>
+                <li><a href=Business>Business  </a></li>
+                <li><a href=About>About </a></li>
+            </ul>
+            </div>
+        </div> 
+        <div id="footer-space">
+        </div>
+        <div>
+            <li><a href=adversiting/>Privacy  </a></li>
+            <li><a href=Business>Terms  </a></li>
+            <li><a href=About>Setting</a></li>    
+        </div>    
+        </nav>
+    </footer>
 </body>
 </html>
